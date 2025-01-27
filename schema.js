@@ -53,4 +53,5 @@ userSchema.methods.updateLastLogin = async function () {
   await this.save();
 };
 
+
 module.exports = User;
